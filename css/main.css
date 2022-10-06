@@ -1,0 +1,59 @@
+.topnav img{
+  width: 175px;
+}
+.topnav{
+  background-color: #333333;
+}
+.topnavlinks{
+  background-color: #333333;
+  display: inline-block;
+}
+#socialmeds a{
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 1.1rem;
+  padding-left: 1rem;
+}
+#socialmeds a:hover{
+  color: #E10000;
+}
+#redirects a{
+  padding-left: 10rem;
+  text-decoration: none;
+  color: #E10000;
+  font-size: 1.3rem;
+  padding-right: 7rem;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+
+#redirects a:hover{
+  color: #FFFFFF;
+}
+.whatwedo{
+  text-align: center;
+  background-color: #333333;
+}
+.do{
+  display: inline-block;
+  padding: 2rem;
+}
+.do h1{
+  font-size: 2.5rem;
+  text-align: left;
+  padding-right: 3rem;
+  color: #E10000;
+  font-family: 'Gemunu Libre', sans-serif;
+}
+.do img{
+  width: 400px;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.do p{
+  color: #FFFFFF;
+  width: 400px;
+  text-align: left;
+  font-size: 1.25rem;
+  font-family: 'Roboto', sans-serif;
+}
+
