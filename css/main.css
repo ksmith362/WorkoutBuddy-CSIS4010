@@ -56,4 +56,34 @@
   font-size: 1.25rem;
   font-family: 'Roboto', sans-serif;
 }
+.loginform{
+  width: 1000px;
+  padding-left: 27rem;
+  padding-top: 8rem;
+}
+td{
+  border-style: solid;
+  border-color: #333333;
+  border-width: .3rem;
+}
+body{
+  background-image: url(bighero3.jpeg);
+}
+input[type="password"] {
+    letter-spacing: 0.125em;
+}
+input[type="text"] {
+  ont-family: 'Gemunu Libre', sans-serif;  
+}
+.submit{
+  text-align: center;
+  font-size: 1.5rem;
+  width: 10rem;
+    border-width: .3rem;
+  border-color: #333333;
+
+}
+.submitbutton{
+  text-align: center;
+}
 
