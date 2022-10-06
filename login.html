@@ -36,24 +36,32 @@
         </nav>
     </header>
     <section class="loginform">
+            <div class="title">
+        <h1>Login Here</h1>
+    </div>
         <form>
         <table>
+
             <tr>
-                <td>ENTER YOUR FIRST NAME HERE:</td>
-                <td><input type="text" placeholder="FIRST NAME" id="firstname" name="firstname" required minlength="3" />
-                </td>
-            </tr>
-            <tr>
-                <td>ENTER YOUR LAST NAME HERE:</td>
-                <td><input type="text" placeholder="LAST NAME" name="lastname" id="lastname" required minlength="3" />
-                </td>
-            </tr>
-            <tr>
-                <td>ENTER YOUR USERNAME HERE:</td>
+                <td>ENTER USERNAME</td>
                 <td><input type="text" placeholder="USERNAME" name="username" id="username" required />
                 </td>
             </tr>
+                        <tr>
+                <td>ENTER EMAIL</td>
+                <td><input type="email" placeholder="EMAIL" name="email" id="email" required />
+                </td>
+            </tr>
+                        <tr>
+                <td>ENTER PASSWORD</td>
+                <td><input type="password" placeholder="PASSWORD" name="password" id="password" required pattern="^(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{7,}$" title="Minimum of 7 characters. Should have at least one special character and one number and one UpperCase Letter.">
+                </td>
+            </tr>
+            <tr>
         </table>
+        <div class="submitbutton">
+        <input type="submit" class="submit" id="submit">
+    </div>
     </form>
     </section>
     <script src="js/vendor.js"></script>
