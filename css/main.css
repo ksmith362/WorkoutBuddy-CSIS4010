@@ -1,112 +1,215 @@
+@media screen and (max-width: 39.9375em){
+  header .menu {
+    /* position menu on top, full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100vh;
+    /* position content in vertical center */
+    flex-direction: column;
+    justify-content: center;
+    /* add styling details */
+    padding: 2rem;
+    background-color: #4b5179;
+    color: #FFFFFF;
+  }
+  header .menu li {
+    /* override Foundation class and align content on left */
+    justify-content: flex-start !important;
+    /* add styling details */
+    font-size: 2rem;
+    color: #FFFFFF;
+  }
+  header .menu li a {
+    /* add styling details */
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+  }
+  header button {
+    cursor: pointer;
+    padding-right: 2rem;
+  }
+  header button.show-for-small-only {
+    position: relative;
+    z-index: 2;
+    color: #FFFFFF;
+  }
+  header button.show-for-small-only.btnToggle {
+    border: none;
+    color: #FFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    color: #FFFFFF;
 
-.topnav img{
-  width: 175px;
-}
-.topnav{
-  background-color: #333333;
-}
-.topnavlinks{
-  background-color: #333333;
-  display: inline-block;
-}
-#socialmeds a{
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 1.1rem;
-  padding-left: 1rem;
-}
-#socialmeds a:hover{
-  color: #E10000;
-}
-#redirects a{
-  padding-left: 10rem;
-  text-decoration: none;
-  color: #E10000;
-  font-size: 1.3rem;
-  padding-right: 7rem;
-  font-family: 'Gemunu Libre', sans-serif;
+
+  }
 }
 
-#redirects a:hover{
-  color: #FFFFFF;
+h2{
+  font-size: 2rem;
+  font-family: 'Noto Serif Telugu', serif;
+  color: #95a2f1;
 }
-.whatwedo{
-  text-align: center;
-  background-color: #333333;
-}
-.do{
-  display: inline-block;
-  padding: 2rem;
-}
-.do h1{
+h1{
   font-size: 2.5rem;
-  text-align: left;
-  padding-right: 3rem;
-  color: #E10000;
-  font-family: 'Gemunu Libre', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
-.do img{
-  width: 400px;
-  padding-top: 1rem;
+
+p{
+  font-size: 1.5rem;
+  font-family: 'Lato', sans-serif;
+}
+nav{
+  font-family: 'Lato', sans-serif;
+  font-size: 1.2rem;
+}
+nav a:hover{
+  color: #95a2f1;
+}
+.topnavheader img{
+  width: 12rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+.locations{
+  color: #020202;
+  text-align: center;
+  background-color: #FFFFFF;
+  padding-bottom: 3rem;
+}
+.location img{
+  padding-bottom: 2rem;
+  width: 100%;
+}
+.location a{
+  color: #4b5179;
+  font-family: 'Noto Serif Telugu', serif;
+  font-size: 2rem;
+  font-weight: bold;
+  transition: .5s;
+  
+}
+.location a:hover{
+  color: #020202;
+  font-size: 2.5rem;
+  transition: .5s;
+}
+
+.locations h2{
+  font-size: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  color: #4b5179;
+  
+}
+
+
+header{
+	background-color: #4b5179;
+  font-family: 'Lato', sans-serif;
+}
+
+.topnavheader a{
+	color: #FDFAF2;
+	padding: 2rem;
+}
+
+.socialmedia h2{
+  font-size: 2rem;
   padding-bottom: 2rem;
 }
-.do p{
-  color: #FFFFFF;
-  width: 400px;
-  text-align: left;
-  font-size: 1.25rem;
-  font-family: 'Roboto', sans-serif;
-}
-.title h1{
-  color: #E10000;
+
+
+.newsletter h2{
+  padding-bottom: 3rem;
   font-size: 2rem;
-  text-align: center;
+}
+.newsletter p{
   padding-top: 5rem;
-  padding: 10px; 
-  background-color: #333333;
-  font-family: 'Gemunu Libre', sans-serif;
-
-
 }
-.loginform{
+
+/*button{
+  background-color: #FDFAF2;
+  border: none;
+  color: #020202;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 4rem;
+}
+button:hover{
+  background-color: #95a2f1;
+  color: #FFFFFF;
+}*/
+.socials{
+  background-color: #4b5179;
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+}
+.newsletter p{
   width: 100%;
-  padding-top: 3rem;
-}
-td{
-  border-style: solid;
-  border-color: #333333;
-  border-width: .3rem;
-  font-family: 'Gemunu Libre', sans-serif;
-  font-size: 1.3rem;
-}
-body{
-  background-image: url(bighero3.jpeg);
-}
-input[type="password"] {
-    letter-spacing: 0.125em;
-    font-family: 'Gemunu Libre', sans-serif;
-}
-input[type="text"] {
-  font-family: 'Gemunu Libre', sans-serif;  
-}
-input[type="email"] {
-  font-family: 'Gemunu Libre', sans-serif;  
-}
-input[type="submit"] {
-  font-family: 'Gemunu Libre', sans-serif;  
-  background-color: #333333;
-  color: #E10000;
-}
-#submit{
-  text-align: center;
-  font-size: 1.5rem;
-  width: 10rem;
-  border-width: .3rem;
-  border-color: #333333;
 
 }
-.submitbutton{
-  text-align: center;
+.socialmedia p{
+  width: 100%;
 }
+.sociallinks a{
+  color: #FFFFFF;
+  font-size: 1.2rem;
+  padding: .3rem;
+}
+
+.sociallinks a:hover{
+  color: #95a2f1;
+  padding-bottom: 2rem;
+}
+
+.text img{
+  width: 7rem;
+  padding: .25rem;
+}
+.footer a{
+  color: #FFFFFF;
+  padding: 3rem;
+  padding-bottom: 4rem;
+}
+.footer{
+  background-color: #95a2f1;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+}
+.privacylink a{
+  color: #FFFFFF;
+  text-decoration: underline;
+}
+.privacylink{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.privacylink a:hover{
+  color: #4b5179;
+}
+.allrights p{
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
 
 
